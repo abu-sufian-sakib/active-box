@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+     vertical-align: middle;
+}
+ul,ol{
+    list-style: none;
+}
+.conteinar{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/*== font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;== */
+#nav{
+    height: 90px;
+    width: 100%;
+    /* background-color: brown; */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main_nav{
+    display: flex;
+    gap: 380px;
+}
+.main_nav .logo{
+    line-height: 90px;
+}
+.main_nav .menu ul{
+    display: flex;
+    /* text-align: right; */
+    gap: 65px;
+    line-height: 90px;
+}
+.main_nav .menu ul li a{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+/* ======== */
+#benar{
+    padding-top:154px ;
+    padding-bottom: 157px;
+    background: url(../images/benar.jpg);
+    /* background: url(../imeges/baner.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 120px;
+}
+.main_benar{
+    text-align: center;
+    width: 920px;
+    margin: 0 auto;
+}
+.main_benar h1{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.main_benar p{
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.main_benar .btn{
+    border: 0px solid;
+    width: 199px;
+    background: rgb(245, 52, 52);
+    margin: 0 auto;
+}
+.main_benar .btn a{
+    font-size: 13px;
+    font-weight: 600;
+    color: seashell;
+    margin-top: 5px;
+}
+.main_icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-left: 37px;
+    margin-bottom: 125px;
+    
+}
+.menu_icon{
+    width: 298px;
+    text-align: center;
+    
+    
+}
+.menu_icon :hover{
+     transition: all linear .40s;
+     color: rgba(119, 168, 112, 0.383);
+}
+.menu_icon .icon{
+  font-size: 65px;
+  color: rgb(189, 65, 65);
+    
+}
+.menu_icon .text{
+    /* transition-duration: .3s;
+    color: rgb(161, 12, 12); */
+}
+
+.menu_icon .text h5{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: #6c7279;  
+    margin-top: -27px;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+}
+.menu_icon .text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif; 
+    color: #6c7279;
+    line-height: 16px;
+}
+/* ======================================================
+=========================================================== */
+.all_img .sakib{
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    
+}
+.all_img .sakib img{
+    width: 25%;
+    height: auto;
+}
+.all_img .sakib img .overlay{
+    position: absolute;
+}
